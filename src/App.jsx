@@ -23,27 +23,30 @@ function App() {
       <Navbar />
 
       <Routes>
-        <Route path="/" element={<Homepage />} />
-        <Route path="/Reading" element={<Reading />} />
+        <Route path="/Rafiq/" element={<Homepage />} />
+        <Route path="/Rafiq/Reading" element={<Reading />} />
 
-        <Route path="/quran" element={<Quran />} />
+        <Route path="/Rafiq/quran" element={<Quran />} />
 
-        <Route path="/books" element={<Books />} />
+        <Route path="/Rafiq/books" element={<Books />} />
 
-        <Route path="/Show" element={<Show />} />
-        <Route path="/showall" element={<ShowAllVideos />} />
+        <Route path="/Rafiq/Show" element={<Show />} />
+        <Route path="/Rafiq/showall" element={<ShowAllVideos />} />
 
-        <Route path="/DayOf" element={<DayOf />} />
+        <Route path="/Rafiq/DayOf" element={<DayOf />} />
 
-        <Route path="/dayofdetails" element={<DayOfDetails />} />
+        <Route path="/Rafiq/dayofdetails" element={<DayOfDetails />} />
 
-        <Route path="/sayings" element={<Sayings />} />
-        <Route path="/sayingdetails/:sayingId" element={<SayingsDeatils />} />
+        <Route path="/Rafiq/sayings" element={<Sayings />} />
+        <Route
+          path="/Rafiq/sayingdetails/:sayingId"
+          element={<SayingsDeatils />}
+        />
 
-        <Route path="/morning" element={<Morning />} />
-        <Route path="/evening" element={<Evening />} />
-        <Route path="/tasbeeh" element={<Tasbihs />} />
-        <Route path="/sleepAzkar" element={<SleepAzkar />} />
+        <Route path="/Rafiq/morning" element={<Morning />} />
+        <Route path="/Rafiq/evening" element={<Evening />} />
+        <Route path="/Rafiq/tasbeeh" element={<Tasbihs />} />
+        <Route path="/Rafiq/sleepAzkar" element={<SleepAzkar />} />
       </Routes>
 
       <Footer />

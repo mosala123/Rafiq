@@ -11,7 +11,11 @@ const Quran = () => {
   // const [inputValue, setInputValue] = useState("");
 
   useEffect(() => {
-    fetch("https://alquran.vip/APIs/quranPagesImage")
+    fetch(
+      `https://api.allorigins.win/raw?url=${encodeURIComponent(
+        "https://alquran.vip/APIs/quranPagesImage"
+      )}`
+    )
       .then((res) => res.json())
       .then((data) => {
         console.log("API Response:", data);

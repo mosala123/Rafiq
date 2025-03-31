@@ -33,7 +33,7 @@ const Navbar = () => {
             <Link to="/showall">المرئيات</Link>
           </li>
           <li>
-            <Link to="/quran">القرآن الكريم</Link>
+            <Link to="/Rafiq/quran">القرآن الكريم</Link>
           </li>
           <li>
             <Link to="/Reading">تلاوات</Link>
