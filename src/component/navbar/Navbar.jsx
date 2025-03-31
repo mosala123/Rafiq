@@ -16,19 +16,42 @@ const Navbar = () => {
         <div className="menu" onClick={toggleMenu}>
           <RiMenu2Fill />
         </div>
-        <ul style={{direction:"rtl"}} className={`nav-ul ${isOpen ? "open" : ""}`}>
-          <li><Link to="/dayofdetails">النهج المحمدي</Link></li>
-          <li><Link to="/sayings">   الأحاديث</Link></li>
-          <li><Link  to="/tasbeeh">قائمة المهام اليومية</Link></li>
-          <li><Link to="/showall">المرئيات</Link></li>
-          <li><Link to="/Reading">تلاوات</Link></li>
-          <li><Link to="/books">الكتب المترجمة</Link></li>
-        
+        <ul
+          style={{ direction: "rtl" }}
+          className={`nav-ul ${isOpen ? "open" : ""}`}
+        >
+          <li>
+            <Link to="/dayofdetails">النهج المحمدي</Link>
+          </li>
+          <li>
+            <Link to="/sayings"> الأحاديث</Link>
+          </li>
+          <li>
+            <Link to="/tasbeeh">قائمة المهام اليومية</Link>
+          </li>
+          <li>
+            <Link to="/showall">المرئيات</Link>
+          </li>
+          <li>
+            <Link to="/quran">القرآن الكريم</Link>
+          </li>
+          <li>
+            <Link to="/Reading">تلاوات</Link>
+          </li>
+          <li>
+            <Link to="/books">الكتب المترجمة</Link>
+          </li>
         </ul>
       </div>
 
       <div className="nav-right">
-        <Link to="/" className="fs-3 text-light " style={{textDecoration:"none"}} >رفيقك</Link>
+        <Link
+          to="/"
+          className="fs-3 text-light "
+          style={{ textDecoration: "none" }}
+        >
+          رفيقك
+        </Link>
       </div>
     </div>
   );

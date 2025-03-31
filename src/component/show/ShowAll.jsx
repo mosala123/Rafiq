@@ -34,7 +34,7 @@ const ShowAllVideos = () => {
     <div className="  px-2 pb-5" style={{ direction: "rtl" ,backgroundColor:"#1a1f2c",paddingTop:"100px"}}>
 
 
- <div className="py-4 " style={{position:"absolute",right:"10px ",position:"fixed",zIndex:"99"}}>
+ <div className="py-4 " style={{ right:"10px ",position:"fixed",zIndex:"99"}}>
  <button onClick={() => navigate(-1)} className="btn btn-dark   ">
       <FaArrowRight className="fs-4" />  
     </button>

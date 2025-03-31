@@ -54,14 +54,14 @@ const SleepAzkar = () => {
             style={{
                 direction: "rtl",
                 minHeight: "100vh",
-                backgroundColor: "#f8f9fa",
+            
                 fontFamily: "Tajawal, sans-serif",
                 padding: "20px",
                 backgroundColor:"#1a1f2c",
                 paddingTop:"100px"
             }}
         >
-<div className="py-4 " style={{position:"absolute",right:"10px ",position:"fixed"}}>
+<div className="py-4 " style={{ right:"10px ",position:"fixed"}}>
  <button onClick={() => navigate(-1)} className="btn btn-dark   ">
       <FaArrowRight className="fs-4" />  
     </button>

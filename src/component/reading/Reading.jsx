@@ -25,7 +25,7 @@ const Reading = () => {
 
   return (
      <div style={{backgroundColor:"#1a1f2c",fontFamily:"-moz-initial",direction:"rtl",paddingTop:"100px"}} >
-       <div className="py-4 " style={{position:"absolute",right:"10px ",position:"fixed",zIndex:"99"}}>
+       <div className="py-4 " style={{ right:"10px ",position:"fixed",zIndex:"99"}}>
        <button onClick={() => navigate(-1)} className="btn btn-dark   ">
             <FaArrowRight className="fs-4" />  
           </button>

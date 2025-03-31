@@ -8,7 +8,7 @@ const DayOfDetails = () => {
     <div className="   px-5 text-right  " style={{ direction: "rtl",backgroundColor:"#1a1f2c",paddingTop:"100px" }}>
 
 
-       <div className="py-4 " style={{position:"absolute",right:"10px ",position:"fixed"}}>
+       <div className="py-4 " style={{ right:"10px ",position:"fixed"}}>
        <button onClick={() => navigate(-1)} className="btn btn-dark   ">
             <FaArrowRight className="fs-4" />  
           </button>

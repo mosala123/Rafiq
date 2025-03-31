@@ -22,7 +22,7 @@ const Books = () => {
       <div className="container">
 
 
-        <div className="py-4 " style={{position:"absolute",right:"10px ",position:"fixed"}}>
+        <div className="py-4 " style={{ right:"10px ",position:"fixed"}}>
          <button onClick={() => navigate(-1)} className="btn btn-dark   ">
               <FaArrowRight className="fs-4" />  
             </button>
