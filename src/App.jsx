@@ -23,7 +23,7 @@ function App() {
       <Navbar />
 
       <Routes>
-        <Route path="/Rafiq/" element={<Homepage />} />
+        <Route path="/Rafiq" element={<Homepage />} />
         <Route path="/Rafiq/Reading" element={<Reading />} />
 
         <Route path="/Rafiq/quran" element={<Quran />} />
@@ -35,7 +35,7 @@ function App() {
 
         <Route path="/Rafiq/DayOf" element={<DayOf />} />
 
-        <Route path="/Rafiq/dayofdetails" element={<DayOfDetails />} />
+        <Route path="/Rafiq/dayofdetails" element={ <DayOfDetails />} />
 
         <Route path="/Rafiq/sayings" element={<Sayings />} />
         <Route
