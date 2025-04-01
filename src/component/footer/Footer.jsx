@@ -8,7 +8,7 @@ const Footer = () => {
       <div className=" p-4">
         <div className="row" style={{display:"flex",alignItems:" ",}}>
           <div className="col-12 col-md-4 mb-4 mb-md-0  ">
-            <Link to="/" className='fs-3 text-light ' style={{ borderBottom: '1px solid white', paddingBottom: '10px' ,textDecoration:"none "}}>رفيقك </Link>
+            <Link to="/Rafiq" className='fs-3 text-light ' style={{ borderBottom: '1px solid white', paddingBottom: '10px' ,textDecoration:"none "}}>رفيقك </Link>
             <p className='mt-3'>اجعل رمضانك مختلفًا هذا العام وسِر على خطى المصطفى ﷺ يومًا بيوم. ابدأ رحلتك الايمانيه مع "رفيق" وكن أقرب إلى الله في كل لحظة.</p>
             <div className="social-icons mt-3">
               <a href="https://www.instagram.com/mo_salah_10_74/?igsh=NDFudXdyc3YxaWg%3D#" target="_blank" rel="noopener noreferrer" className="mx-2 text-white">
